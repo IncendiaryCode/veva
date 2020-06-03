@@ -1,0 +1,80 @@
+[29-Feb-2020 19:22:35 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/viveroot/public_html/wp-content/themes/vive/template-researches.php on line 27
+[29-Feb-2020 19:22:38 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/viveroot/public_html/wp-content/themes/vive/template-researches.php on line 27
+[07-Mar-2020 07:07:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_attributes() on integer in /home/viveroot/public_html/wp-content/themes/vive/template-parts/content-price.php:16
+Stack trace:
+#0 /home/viveroot/public_html/wp-includes/template.php(724): require()
+#1 /home/viveroot/public_html/wp-includes/template.php(671): load_template('/home/viveroot/...', false)
+#2 /home/viveroot/public_html/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /home/viveroot/public_html/wp-content/themes/vive/home.php(34): get_template_part('template-parts/...', 'price')
+#4 /home/viveroot/public_html/wp-includes/template-loader.php(98): include('/home/viveroot/...')
+#5 /home/viveroot/public_html/wp-blog-header.php(19): require_once('/home/viveroot/...')
+#6 /home/viveroot/public_html/index.php(17): require('/home/viveroot/...')
+#7 {main}
+  thrown in /home/viveroot/public_html/wp-content/themes/vive/template-parts/content-price.php on line 16
+[07-Mar-2020 07:07:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_attributes() on integer in /home/viveroot/public_html/wp-content/themes/vive/template-parts/content-price.php:16
+Stack trace:
+#0 /home/viveroot/public_html/wp-includes/template.php(724): require()
+#1 /home/viveroot/public_html/wp-includes/template.php(671): load_template('/home/viveroot/...', false)
+#2 /home/viveroot/public_html/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /home/viveroot/public_html/wp-content/themes/vive/home.php(34): get_template_part('template-parts/...', 'price')
+#4 /home/viveroot/public_html/wp-includes/template-loader.php(98): include('/home/viveroot/...')
+#5 /home/viveroot/public_html/wp-blog-header.php(19): require_once('/home/viveroot/...')
+#6 /home/viveroot/public_html/index.php(17): require('/home/viveroot/...')
+#7 {main}
+  thrown in /home/viveroot/public_html/wp-content/themes/vive/template-parts/content-price.php on line 16
+[07-Mar-2020 07:07:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_attributes() on integer in /home/viveroot/public_html/wp-content/themes/vive/template-parts/content-price.php:16
+Stack trace:
+#0 /home/viveroot/public_html/wp-includes/template.php(724): require()
+#1 /home/viveroot/public_html/wp-includes/template.php(671): load_template('/home/viveroot/...', false)
+#2 /home/viveroot/public_html/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /home/viveroot/public_html/wp-content/themes/vive/home.php(34): get_template_part('template-parts/...', 'price')
+#4 /home/viveroot/public_html/wp-includes/template-loader.php(98): include('/home/viveroot/...')
+#5 /home/viveroot/public_html/wp-blog-header.php(19): require_once('/home/viveroot/...')
+#6 /home/viveroot/public_html/index.php(17): require('/home/viveroot/...')
+#7 {main}
+  thrown in /home/viveroot/public_html/wp-content/themes/vive/template-parts/content-price.php on line 16
+[07-Mar-2020 07:08:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_attributes() on integer in /home/viveroot/public_html/wp-content/themes/vive/template-parts/content-price.php:16
+Stack trace:
+#0 /home/viveroot/public_html/wp-includes/template.php(724): require()
+#1 /home/viveroot/public_html/wp-includes/template.php(671): load_template('/home/viveroot/...', false)
+#2 /home/viveroot/public_html/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /home/viveroot/public_html/wp-content/themes/vive/home.php(34): get_template_part('template-parts/...', 'price')
+#4 /home/viveroot/public_html/wp-includes/template-loader.php(98): include('/home/viveroot/...')
+#5 /home/viveroot/public_html/wp-blog-header.php(19): require_once('/home/viveroot/...')
+#6 /home/viveroot/public_html/index.php(17): require('/home/viveroot/...')
+#7 {main}
+  thrown in /home/viveroot/public_html/wp-content/themes/vive/template-parts/content-price.php on line 16
+[07-Mar-2020 07:08:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function get_attributes() on integer in /home/viveroot/public_html/wp-content/themes/vive/template-parts/content-price.php:16
+Stack trace:
+#0 /home/viveroot/public_html/wp-includes/template.php(724): require()
+#1 /home/viveroot/public_html/wp-includes/template.php(671): load_template('/home/viveroot/...', false)
+#2 /home/viveroot/public_html/wp-includes/general-template.php(168): locate_template(Array, true, false)
+#3 /home/viveroot/public_html/wp-content/themes/vive/home.php(34): get_template_part('template-parts/...', 'price')
+#4 /home/viveroot/public_html/wp-includes/template-loader.php(98): include('/home/viveroot/...')
+#5 /home/viveroot/public_html/wp-blog-header.php(19): require_once('/home/viveroot/...')
+#6 /home/viveroot/public_html/index.php(17): require('/home/viveroot/...')
+#7 {main}
+  thrown in /home/viveroot/public_html/wp-content/themes/vive/template-parts/content-price.php on line 16
+[07-Mar-2020 07:10:39 UTC] PHP Parse error:  syntax error, unexpected 'var_dump' (T_STRING) in /home/viveroot/public_html/wp-content/themes/vive/template-parts/content-price.php on line 18
+[30-Mar-2020 12:28:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:28:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:28:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:28:46 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:28:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:28:47 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:28:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:28:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:45:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:45:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:45:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:45:52 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/php_mysqli.dll: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:55:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:55:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:55:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:55:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:55:21 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:55:21 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:55:22 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[30-Mar-2020 12:55:22 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so' - /opt/cpanel/ea-php71/root/usr/lib64/php/modules/msql.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[29-May-2020 13:08:29 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/viveroot/public_html/wp-content/themes/vive/template-parts/content-price.php on line 25
+[29-May-2020 13:12:18 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/viveroot/public_html/wp-content/themes/vive/template-parts/content-price.php on line 38

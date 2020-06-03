@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Montserrat';
+    font-size: 70px;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Montserrat';
+    font-size: 50px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 24px;
+    /*    line-height: 50px;*/
+
+}
+
+p {
+    font-size: 20px;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    color: #af0000;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
+.red {
+    color: #af0000;
+}
+
+.vert-center {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.main-container {
+    margin-top: 100px;
+    min-height: 70vh;
+}
+
+/*menu*/
+#masthead {
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 100;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar-nav li a {
+    color: #af0000;
+    padding-left: 70px;
+}
+
+.navbar-nav li a:hover {
+    text-decoration: none;
+}
+
+.navbar-toggler {
+    display: none;
+    position: absolute;
+    right: 15px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(175, 0, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #af0000;
+}
+
+.site-title {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.site-title a:hover {
+    text-decoration: none;
+}
+
+/*header*/
+#header {
+    height: 75vh;
+}
+
+.header-titles {
+    margin-top: 11%;
+}
+
+.first {
+    margin-top: 17%;
+}
+
+.second,
+.third {
+    display: none;
+}
+
+.site-header {
+    padding: 25px 0px;
+    border-bottom: 1px solid #f4f4f5;
+}
+
+
+
+.header-content {
+    padding: 0 15%;
+}
+
+/*testimonials*/
+.testimonial-row {
+    margin-top: 150px;
+}
+
+.testimonial-container {
+    padding-right: 18%;
+}
+
+.testimonial-container P {
+    margin-bottom: 0px;
+}
+
+.empty-space {
+    height: 65px;
+    border-left: 1px solid #d7d7d7;
+}
+
+
+.testimonial-person p {
+    font-size: 20px;
+    font-weight: 550;
+    margin-bottom: 0px;
+}
+
+/*product */
+#product {
+    margin-top: 150px;
+}
+
+#product h3 {
+    margin-bottom: 10px;
+}
+
+/*molecules*/
+
+#molecules {
+    margin-top: 150px;
+}
+
+#molecules h3 {
+    margin-bottom: 10px;
+}
+
+.molecules-row {
+    margin-top: 100px;
+}
+
+.molecules-row p {
+    font-size: 16px;
+}
+
+/*pricing*/
+#pricing {
+    margin-top: 250px;
+    padding-bottom: 200px;
+}
+
+#pricing h3 {
+    margin-bottom: 70px;
+}
+
+/*price*/
+a:focus,button:focus,input:focus,textarea:focus {outline: none;}
+
+.pricing-container {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.btn-price {
+    background: white;
+    border: 1px solid #af0000;
+    border-radius: 20px;
+    color: #af0000;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.btn-price:hover {
+    background: #af0000;
+    color: white;
+}
+
+.btn-price.active {
+    background: #af0000;
+    color: white;
+    outline: none !important;
+    border: none !important;
+}
+
+.btn-price.active:focus{
+    outline: none !important;
+        border: none !important;
+}
+.price-description {
+    padding-left: 22%
+}
+
+.price-row {
+    margin-bottom: 20px;
+}
+
+.span-img {
+    padding-right: 15px;
+}
+
+.price {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+/* footer */
+.site-footer {
+    padding-top: 35px;
+    border-top: 2px solid #af0000;
+}
+
+.footer-rights {
+    text-align: right;
+}
+
+.footer-link {
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+
+/*researches template*/
+.research-subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+}
+
+.reseraches-content p {
+    font-size: 14px;
+    color: gray;
+    text-align: left;
+}
+
+.reseraches-content p:first-of-type {
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    text-align: left;
+}
+
+.reseraches-content a {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+/*woocomerce*/
+
+.button {
+    background-color: #af0000 !important;
+    color: #fff !important;
+}
+
+.woocommerce-checkout h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.form-row {
+    display: block;
+}
+
+#header-b {
+    height: 75VH
+}
+
+.flex-container {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:3%;
+}
+
+.healthy {
+    padding: 20px;
+    width: 50%;
+    border: 1px solid #af0000;
+    color: #af0000;
+    font-size: 23px;
+}
+
+.final {
+    background: #af0000;
+    color: #fff;
+    padding: 20px;
+    width: 30%;
+    border: 1px solid #af0000;
+    font-size: 23px;
+}
+.years{
+   color: #af0000; 
+    padding: 10px;
+    margin-top:17px;
+}
+.animated-div {
+    margin-top: 10%
+}
+
+.heading-b{
+    text-transform: lowercase;
+}
+
+.second-b{
+    display: none
+}
+
+/* ----------- Mobile ----------- */
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 330px) and (max-device-width: 812px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .navbar {
+        float: left;
+        top: 25px;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    .header-titles {
+        margin-top: 30px;
+        padding-top: 70px;
+    }
+
+    .testimonial-container {
+        padding: 5% 0;
+    }
+
+    .testimonial-person p {
+        font-size: 18px;
+    }
+
+    .testimonial-row {
+        margin-top: 100px;
+    }
+
+    #product {
+        margin-top: 75px;
+    }
+
+    #molecules {
+        margin-top: 75px;
+    }
+
+    .molecules-row {
+        margin-top: 75px;
+    }
+
+    .molecules-img img {
+        padding: 10%;
+        width: 75%;
+    }
+
+    #pricing {
+        margin-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .btn-price {
+        margin-bottom: 30px;
+    }
+
+    .footer-links-container {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .footer-rights {
+        text-align: left;
+    }
+}
